@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App" style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1>📦 재고 관리 시스템</h1>
+      <h1>📦 재고 관리 시스템 - CI/CD 테스트</h1>
       <div style={{ marginBottom: '20px', border: '1px solid #ccc', padding: '15px' }}>
         <input value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="상품명" />
         <input type="number" value={newQty} onChange={(e) => setNewQty(e.target.value)} style={{ width: '60px', marginLeft: '5px' }} />
