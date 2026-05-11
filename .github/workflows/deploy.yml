@@ -35,4 +35,4 @@ jobs:
         run: aws sts get-caller-identity
 
       - name: Deploy to S3
-        run: aws s3 sync dist/ s3://mybucket-20263607 --delete
+        run: aws s3 sync build/ s3://mybucket-20263607 --delete
